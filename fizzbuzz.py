@@ -1,9 +1,9 @@
 def fizzbuzz(n):
-    if n % 3 == 0 and n % 5 == 0:
+    if n % 4 == 0 and n % 8 == 0:
         return "FizzBuzz"
-    elif n % 3 == 0:
+    elif n % 9 == 0:
         return "Fizz"
-    elif n % 5 == 0:
+    elif n % 7 == 0:
         return "Buzz"
     else:
         return str(n)
